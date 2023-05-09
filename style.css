@@ -166,46 +166,46 @@ header .icons #menu-bars{
     padding: 1rem 0;
 }
 
-.anime{
+.Popular{
     padding:5rem;
 }
 
-.anime .box{
+.Popular .box{
     width: 299px;
     height:168px;
 }
 
-.anime .content h3{
+.Popular .content h3{
     font-size: 1.7rem;
     color: #ffffff;
     text-transform: uppercase;
     text-align: center;
 }
 
-.anime .content P{
+.Popular .content P{
     font-size: 1.2rem;
     color:#fff;
     text-decoration: none;
 
 }
 
-.action{
+.Trending{
     padding:5rem;
 }
 
-.action .box{
+.Trending .box{
    width:299px;
    height:168px;
 }
 
-.action .content h3{
+.Trending .content h3{
     font-size: 1.7rem;
     color: #ffffff;
     text-transform: uppercase;
     text-align: center;
 }
 
-.action .content P{
+.Trending .content P{
     font-size: 1.2rem;
     color:#fff;
     text-decoration: none;
