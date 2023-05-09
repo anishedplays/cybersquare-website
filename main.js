@@ -81,4 +81,10 @@ var swiper = new Swiper(".home-slider", {
       clickable: true,
     },
     loop:true
-  });
+  })
+
+const icon = document.querySelector('.icons i');
+const search = document.querySelector('.icons i');
+icon.onclick = function(){
+  search.classList.toggle('active')
+}
