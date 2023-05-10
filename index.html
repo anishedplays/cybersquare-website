@@ -26,14 +26,15 @@
         <nav class="navbar">
              <a href="index.html">home</a>
         </nav>
-        <div class="icons">
-            <i class="fas fa-bars" id="menu-bars"></i>  
-            <i class="fas fa-search" id="search-icon"></i>
-            <a href="account/user_page.php" class="fa-regular fa-user"></a>
-        <div class="input"></div> 
 
+        <div class="search">
+            <div class="icons">
+                <i class="fas fa-bars" id="menu-bars"></i>>
+                <i class="fas fa-search" id="search-icon"></i>
+              <a href="account/user_page.php" class="fa-regular fa-user"></a>
+            <div class="input"></div>        
+        </div>
     </header>
-
 <!-- home section start -->
 
 <section class="home" id="home">
@@ -499,27 +500,13 @@
 <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <!-- custome js file link -->
     <script src="main.js"></script>
+    
+    <script>
+  const search = document.querySelector('.search');
+  const icon = document.querySelector('.icons i');
+  icon.onclick = function(){
+    search.classList.toggle('active')
+}
+    </script>
 </body>
 </html>
-
-<script>
-   let menu = document.querySelector('#menu-bars');
-let navbar = document.querySelector('.navbar');
-
-menu.onclick = () =>{
-  menu.classList.toggle('fa-times');
-  navbar.classList.toggle('active');
-}
-</script>
-
-
-
-
-
-
-
-
-
-
-
-

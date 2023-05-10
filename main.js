@@ -83,8 +83,8 @@ var swiper = new Swiper(".home-slider", {
     loop:true
   })
 
-const icon = document.querySelector('.icons i');
-const search = document.querySelector('.icons i');
-icon.onclick = function(){
-  search.classList.toggle('active')
+  const search = document.querySelector('.search');
+  const icon = document.querySelector('.icons i');
+  icon.onclick = function(){
+    search.classList.toggle('active')
 }
