@@ -427,11 +427,3 @@ header .icons #menu-bars{
     
     
 }
-
-.fas_fa-search{
-  position: relative;
-  height: 60px;
-  width: 60px;
-  background: 60px;
-  transition: 0.5s;
-}
