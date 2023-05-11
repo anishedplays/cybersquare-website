@@ -98,8 +98,8 @@ header .navbar a:hover{
     background: var(--red);
 }
 
-header .icons i,
-header .icons a{
+header .search .icons i,
+header .search .icons a{
     cursor: pointer;
     margin-left: .5rem;
     height: 4.5rem;
@@ -108,21 +108,18 @@ header .icons a{
     text-align: center;
     font-size: 1.7rem;
     color: #fff;
-    border-radius: 50%;
+    border-radius: 50px;
     background:var(--red);
 }
 
-header .icons i:hover,
-header .icons a:hover{
-    color: var(--red);
-    background: #fff;
-    transform: rotate(360deg);
-}
 
-header .icons #menu-bars{
+header .search .icons #menu-bars{
     display: none;
 }
 
+header .search.active .icons i{
+  width: 300px;
+}
 
 .home{
     padding:0;
